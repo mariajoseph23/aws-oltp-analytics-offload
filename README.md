@@ -22,6 +22,10 @@ Protect OLTP latency by preventing analytics/reporting queries from competing wi
 - Athena preview of exported aggregates: `screenshots/athena_orders_agg_preview.png`
 - Athena revenue-by-day query results: `screenshots/athena_revenue_by_day.png`
 
+### Lessons Learned
+
+- Managed services like Athena may retain execution metadata that requires explicit cleanup or state reconciliation during teardown.
+
 ### Cleanup
 
 This lab is designed to be fully destroyable to avoid ongoing AWS cost.
