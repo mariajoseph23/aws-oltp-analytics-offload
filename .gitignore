@@ -1,0 +1,12 @@
+# Terraform
+.terraform/
+terraform.tfstate
+terraform.tfstate.*
+.terraform.lock.hcl
+
+# Local outputs
+scripts/terraform-outputs.json
+
+# macOS
+.DS_Store
+
